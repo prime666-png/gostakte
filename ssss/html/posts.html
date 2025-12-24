@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Посты</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+
+<nav class="top-menu">
+    <a href="main.html">Главная</a>
+    <a href="../index.php?page=logout">Выход</a>
+</nav>
+
+<h2>Посты</h2>
+
+<form action="../index.php?page=add_post" method="post">
+    <textarea name="content" placeholder="Что нового?" required></textarea>
+    <button type="submit">Опубликовать</button>
+</form>
+
+<p>Ниже отображаются посты пользователя</p>
+
+</body>
+</html>
